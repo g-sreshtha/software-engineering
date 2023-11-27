@@ -27,3 +27,5 @@ This is different to the traditional Monolithic Architecture where all processes
 
 **Integration Testing Challenges**: Testing the interactions between different microservices can be challenging. It requires thorough integration testing to ensure that all services work correctly together.
 
+## Real World Cases:
+The most popular companies that switched from using the monolith architecture to microservices are Amazon, Netflix, and Uber to achieve scaling advantages, business agility and profitability. 
