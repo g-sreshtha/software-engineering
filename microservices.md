@@ -19,19 +19,11 @@ This is different to the traditional Monolithic Architecture where all processes
 **Fault Isolation**: If one microservice fails, it does not necessarily affect the entire system. Isolating failures to specific services makes it easier to identify and fix issues without impacting the entire application.
 
 ### Disadvantages:
-**Complexity**: Managing a system with many microservices introduces complexity in terms of service discovery, communication, and data consistency. The distributed nature of microservices can make development and debugging more challenging.
--> however there are tools being developed to combat this
+**Complexity**: Managing a system with many microservices introduces complexity in terms of service discovery, communication, and data consistency. The distributed nature of microservices can make development and debugging more challenging. However, there are tools that have been developed to combat this e.g Kubernetes: an open-source system for automating deployment, scaling, and management of contained applications
 
-Data Management Challenges: Handling data consistency and integrity across multiple microservices can be complex. Maintaining a consistent view of data across services may require additional effort and coordination.
+**Data Management Challenges**: Handling data consistency and integrity across multiple microservices can be complex. Maintaining a consistent view of data across services may require additional effort and coordination.
 
-Initial Development Costs: Adopting a microservices architecture may require significant upfront investment in terms of infrastructure, tooling, and training. The benefits often become more apparent in the long term.
+**Initial Development Costs**: Adopting a microservices architecture may require significant upfront investment in terms of infrastructure, tooling, and training. The benefits often become more apparent in the long term.
 
-Integration Testing Challenges: Testing the interactions between different microservices can be challenging. It requires thorough integration testing to ensure that all services work correctly together.
+**Integration Testing Challenges**: Testing the interactions between different microservices can be challenging. It requires thorough integration testing to ensure that all services work correctly together.
 
-Security Concerns: The distributed nature of microservices introduces new security challenges, such as securing communication between services, managing access control, and ensuring data privacy.
-## the downsides of microservices:
-- new challenges are introduced
-- configuring the communication between services adds complexity just by the fact that it is a distributed system.
-
--> however there are tools being developed to combat this i.e kubernetes
-- 
